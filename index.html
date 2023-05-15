@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Store</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/storeLogo.png" width="170px">
+                </div>
+                <nav>
+                    <button id="myBtn">
+                        My Cart
+                        <i class="fa" style="font-size:24px">&#128722</i>        
+                        <span class='badge badge-warning' id='lblCartCount'><i id="cart-count"></i></span>             
+                    </button>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Experience gaming like never before</h1>
+                    <p>
+                        We at <b>E-Store</b> want it to be easier for gamers to discover and
+                        shop for things that will help them dominate the battlefield.
+                    </p>
+                    <a href="#content" class="btn">Shop now</a><br><br>
+                </div>
+                <div class="col-2">
+                    <div class="slideshow">
+                        <div class="slides">
+                            <!--radio buttons start-->
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+                            <input type="radio" name="radio-btn" id="radio5">
+                            <!--radio buttons end-->
+                            <!--slide images start-->
+                            <div class="slide first">
+                                <img src="images/slides/1.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="images/slides/2.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="images/slides/3.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="images/slides/4.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="images/slides/5.jpg" alt="">
+                            </div>
+                            <!--slide images end-->
+                        </div>
+                        <!--manual navigation start-->
+                        <div class="navigation-manual">
+                          <label for="radio1" class="manual-btn"></label>
+                          <label for="radio2" class="manual-btn"></label>
+                          <label for="radio3" class="manual-btn"></label>
+                          <label for="radio4" class="manual-btn"></label>
+                          <label for="radio5" class="manual-btn"></label>
+                        </div>
+                        <!--manual navigation end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Store Content -->
+    <!-- Regular Content -->
+    <div class="regular" id="content">
+        <div class="content-container">
+            <h2>Gaming Towers</h2>
+            <div class="row-products">
+                <!-- <div class="col-3">
+                    <img src="images/products/su1.png">
+                    <h3>Potato PC1000</h3>
+                    <p>$1499.00</p>
+                    <div class="description">
+                        <div class="item-hidden">
+                            <p>
+                                <b>CPU:</b>{product.cpu}<br>
+                                <b>GPU:</b>{product.gpu}<br>
+                                <b>ROM:</b>{product.storage}<br>
+                                <b>RAM:</b>{product.memory}
+                            </p>
+                        </div>
+                        <div class="item-hidden">
+                            <a class="buy">Add to Cart</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <p>FY22.56 Front End Development Basic Assessment</p>
+        <p>john.kenneth.hugo</p>
+        <p id="credits">Images from lytetechnology.com</p>
+    </div>
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Cart</h2>
+            </div>
+            <div class="modal-body">
+                <div class = "row-cart">
+                    <!-- single item -->
+                    <!-- <div class = "col-cart">
+                        <img src = "images/products/su8.png">
+                        <div class = "cart-item-info">
+                            <h3 class = "cart-item-name">Arm Chair</h3>
+                            <span class = "cart-item-price">$120.00</span>
+                        </div>
+                        <button type = "button" class = "cart-item-del-btn">
+                            <i class = "fas fa-times">remove cart item</i>
+                        </button>
+                    </div> -->
+                    <!-- end of single item  -->
+                </div>    
+            </div>
+            <div class="modal-footer">
+                <div class="col-footer">
+                    <h4>
+                        Number of Items: <i id="cart-qty"></i>
+                    </h4>
+                    <h3> 
+                        Total: $<span id = "cart-total-value"></span>
+                    </h3>
+                    <button type="button" id="cart-buy">Checkout</button>
+                </div>
+            </div>    
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>

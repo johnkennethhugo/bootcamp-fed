@@ -1,0 +1,83 @@
+[
+    {
+		"name": "Potato PC1000",
+		"image": "images/products/su1.png",
+        "cpu": "AMD Ryzen 5 5600G",
+		"gpu": "Nvidia GTX1650",
+		"storage": "1000GB HDD",
+		"memory": "8GB RAM",
+		"price": "499.00"
+	},
+	{
+		"name": "Potato PC2000",
+		"image": "images/products/su2.png",
+		"cpu": "INTEL Core i5-12500K",
+		"gpu": "Nvidia GTX1650",
+		"storage": "1000GB HDD",
+		"memory": "8GB RAM",
+		"price": "799.00"
+	},
+	{
+		"name": "Potato PC3000",
+		"image": "images/products/su3.png",
+		"cpu": "AMD Ryzen 7 5900",
+		"gpu": "Nvidia GTX1660",
+		"storage": "250GB SSD",
+		"memory": "16GB RAM",
+		"price": "1299.00"
+	},
+    {
+		"name": "Potato PC4000",
+		"image": "images/products/su4.png",
+		 "cpu": "INTEL Core i7-12700K",
+		 "gpu": "Nvidia GTX1660",
+		 "storage": "250GB SSD",
+		 "memory": "16GB RAM",
+		"price": "1399.00"
+	},
+	{
+		"name": "Potato PC5000",
+		"image": "images/products/su5.png",
+		"cpu": "AMD Ryzen 9 5900X",
+		"gpu": "Nvidia RTX3060",
+		"storage": "500GB SSD",
+		"memory": "16GB RAM",
+		"price": "1499.00"
+	},
+	{
+		"name": "Potato PC6000",
+		"image": "images/products/su6.png",
+		"cpu": "Intel Core i9 12900K",
+		"gpu": "Nvidia RTX3060",
+		"storage": "500GB SSD",
+		"memory": "16GB RAM",
+		"price": "1799.00"
+	},
+    {
+		"name": "Potato PC7000",
+		"image": "images/products/su7.png",
+		 "cpu": "INTEL Core i7-12700K",
+		 "gpu": "Nvidia RTX3070",
+		 "storage": "1TB NVME M2 SSD",
+		 "memory": "32GB RAM",
+		"price": "1999.00"
+	},
+	{
+		"name": "Potato PC8000",
+		"image": "images/products/su8.png",
+		"cpu": "AMD Ryzen 9 5900X",
+		"gpu": "Nvidia RTX4070",
+		"storage": "5TB NVME M2 SSD",
+		"memory": "32GB RAM",
+		"price": "2199.00"
+	},
+	{
+		"name": "Potato PC9000",
+		"image": "images/products/su9.png",
+		"cpu": "Intel Core i9 13900K",
+		"gpu": "Nvidia RTX4090",
+		"storage": "5TB NVME M2 SSD",
+		"memory": "32GB RAM",
+		"price": "2499.00"
+	}
+]
